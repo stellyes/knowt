@@ -8,7 +8,7 @@ import os
 
 # Configure page
 st.set_page_config(
-    page_title="Personal Whiteboard",
+    page_title="Knowt",
     page_icon="📝",
     layout="wide"
 )
@@ -137,7 +137,7 @@ def render_entry(entry):
 load_data()
 
 # Header
-st.title("📝 Personal Whiteboard")
+st.title("Knowt™")
 st.markdown("Your portable note-taking and organization hub")
 
 # Sidebar for adding entries
